@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>79222b7d-006f-469e-a84e-c9fb8272fe90</Guid>
+    <Name>SquadBasedRoster</Name>
+    <Description>Squad Based Roster</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>SquadBasedRoster</AssemblyName>
+    <RootNamespace>SquadBasedRoster</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Src\SquadBasedRoster\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
+    <Content Include="Src\SquadBasedRoster\Classes\X2DownloadableContentInfo_SquadBasedRoster.uc" />
+    <Content Include="Config\XComSquadBasedRoster.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XcomGameCore.ini" />
+    <Content Include="Config\XComrobojumperSquadSelect_NullConfig.ini" />
+    <Content Include="Config\XComGameData.ini" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
